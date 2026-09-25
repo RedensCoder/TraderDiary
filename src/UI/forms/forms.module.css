@@ -1,0 +1,46 @@
+:root {
+    --input-color: #333333;
+}
+
+.form_control {
+    display: block;
+
+    background-color: var(--input-color);
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--input-color);
+
+    color: white;
+    font-size: 18px;
+}
+
+.form_control:focus {
+    border-color: var(--primary);
+    outline: 0;
+}
+
+.input_group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+
+    margin-bottom: 1rem;
+}
+
+.input_group label {
+    margin-bottom: 0.5rem;
+}
+
+.input_groupH {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.input_groupH label {
+    margin-right: 1rem;
+}

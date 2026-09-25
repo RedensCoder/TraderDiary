@@ -1,0 +1,30 @@
+:root {
+    --primary: #007AFF;
+    --primary-hover: #0A84FF;
+    --primary-disabled: #0A84FF;
+    --primary-disabled-text: #DDDDDD;
+}
+
+.default {
+    color: white;
+    background-color: var(--primary);
+    padding: 8px 16px;
+    border-radius: 12px;
+    cursor: pointer;
+
+    font-size: 18px;
+}
+
+.default:hover {
+    background-color: var(--primary-hover);
+}
+
+.disabled {
+    background-color: var(--primary-disabled);
+    padding: 8px 16px;
+    border-radius: 12px;
+    cursor: not-allowed;
+
+    font-size: 18px;
+    color: var(--primary-disabled-text);
+}

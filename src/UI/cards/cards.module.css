@@ -1,0 +1,16 @@
+:root {
+    --primary-card: #282828;
+}
+
+.card {
+    background-color: var(--primary-card);
+    border-radius: 16px;
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+
+    margin: 2rem;
+}

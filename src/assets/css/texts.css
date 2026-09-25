@@ -1,0 +1,19 @@
+p {
+    margin-bottom: 1rem;
+}
+
+/* ЗАГОЛОВКИ */
+.h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* РАЗМЕРЫ */
+.text-sm {
+    font-size: 0.8rem;
+}
+
+/* ЦВЕТА */
+.text-primary {
+    color: var(--primary);
+}
