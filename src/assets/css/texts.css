@@ -4,7 +4,7 @@ p {
 
 /* ЗАГОЛОВКИ */
 .h1 {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -13,7 +13,20 @@ p {
     font-size: 0.8rem;
 }
 
+.text-md {
+    font-size: 1rem;
+}
+
+.text-lg {
+    font-size: 1.5rem;
+}
+
 /* ЦВЕТА */
 .text-primary {
     color: var(--primary);
+}
+
+/* РАСПОЛОЖЕНИЕ */
+.text-center {
+    text-align: center;
 }

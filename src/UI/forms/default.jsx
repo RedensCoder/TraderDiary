@@ -1,8 +1,8 @@
 import FormsUI from './forms.module.css';
 
-export const Input = ({type = "text", required = true, placeholder, id}) => {
+export const Input = ({value, type = "text", required = true, placeholder, id, onChange}) => {
     return (
-        <input id={id} className={FormsUI.form_control} type={type} placeholder={placeholder} required={required} />
+        <input onChange={onChange} value={value} id={id} className={FormsUI.form_control} type={type} placeholder={placeholder} required={required} />
     )
 }
 
